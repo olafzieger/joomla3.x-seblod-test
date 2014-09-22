@@ -70,3 +70,10 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .* index.php [L]
 #
 ## End - Joomla! core SEF Section.
+
+## Apassungen für Seblod
+#
+php_value max_input_vars 3000
+php_value max_file_uploads 50
+#
+## Ende - Apassungen für Seblod
